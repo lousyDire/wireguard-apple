@@ -25,9 +25,9 @@ import (
     "unsafe"
 
     "golang.org/x/sys/unix"
-    "golang.zx2c4.com/wireguard/conn"
-    "golang.zx2c4.com/wireguard/device"
-    "golang.zx2c4.com/wireguard/tun"
+    "github.com/amnezia-vpn/amnezia-wg/conn"
+    "github.com/amnezia-vpn/amnezia-wg/device"
+    "github.com/amnezia-vpn/amnezia-wg/tun"
 )
 
 var loggerFunc unsafe.Pointer
